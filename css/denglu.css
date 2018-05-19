@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+
+    /*怪异盒子*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+/*公用样式 开始*/
+html,body{/*背景*/
+    height: 100%;/*高度*/
+}
+body{/*背景*/
+    background-size: cover;/*banner大小*/
+    background-image: url(../img/banner.jpg) ;/*banner图*/
+}
+
+input:focus{/*伪类*/
+    background-color: white;/*背景色*/
+    box-shadow: 0px 9px 62px #adb2c7;/*投影*/
+
+    /* -webkit-box-shadow: 0 28px 57px rgba(0,0,0,0.52);/!*苹果 谷歌*!/
+     -moz-box-shadow: 0 28px 57px rgba(0,0,0,0.52);/!*火狐*!/
+     -o-box-shadow: 0 28px 57px rgba(0,0,0,0.52);/!*浏览器*!/
+     -ms-box-shadow: 0 28px 57px rgba(0,0,0,0.52);/!*浏览器*!/*/
+}
+/*公用样式 结束*/
+
+
+
+/*登陆底层 开始*/
+#dengludic{
+    width:400px;/*宽*/
+    top: 124px;/*上*/
+    right: 30%;/*右*/
+    bottom: 124px;/*下*/
+    position: absolute;/*绝对路径*/
+    border-radius: 10px;/*圆角*/
+    background-color: white;/*背景色*/
+    box-shadow: 0px 28px 72px #000000;/*投影*/
+
+    -webkit-box-shadow: 0 28px 57px rgba(0,0,0,0.72);/*苹果 谷歌*/
+    -moz-box-shadow: 0 28px 57px rgba(0,0,0,0.72);/*火狐*/
+    -o-box-shadow: 0 28px 57px rgba(0,0,0,0.72);/*浏览器*/
+    -ms-box-shadow: 0 28px 57px rgba(0,0,0,0.72);/*浏览器*/
+}
+/*登陆底层 结束*/
+
+
+/*邮箱/电话输入框 开始*/
+.tel{
+    width: 300px;/*宽*/
+    height: 42px;/*高*/
+    border: none;/*去除边框*/
+    outline: none;/*去除发光边框*/
+    border-radius: 20px;/*圆角*/
+    margin-top: 200px;/*上边距*/
+    margin-left: 50px;
+    background-color: #eff0f4;/*背景色*/
+}
+/*邮箱/电话输入框 结束*/
+
+
+
+/*密码 开始*/
+.miam{
+    width: 300px;/*宽*/
+    height: 42px;/*高*/
+    border: none;/*去除边框*/
+    outline: none;/*去除发光边框*/
+    border-radius: 20px;/*圆角*/
+    margin-top: 30px;/*上边距*/
+    margin-left: 50px;
+    background-color: #eff0f4;/*背景色*/
+}
+/*密码 结束*/
+
+
+
+/*登陆 底层开始*/
+.dl{
+    width: 300px;/*宽*/
+    height: 42px;/*高*/
+    border: none;/*去除边框*/
+    outline: none;/*去除发光边框*/
+    border-radius: 20px;/*圆角*/
+    margin-top: 30px;/*上边距*/
+    margin-left: 50px;/*左边距*/
+    background-color: #1f5dea;/*背景色*/
+}
+/*登陆 底层结束*/
+
+
+
+/*登陆字体 开始*/
+.dlzi{
+    color: white;/*字体颜色*/
+    font-size: 20px;/*字体大小*/
+    text-decoration: none;/*取消下划线*/
+}
+/*登陆字体 结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
